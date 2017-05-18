@@ -34,7 +34,7 @@ def call(String buildStatus = 'STARTED') {
 
   emailext (
       //to: 'bitwiseman@bitwiseman.com',
-      to: 'chenjz@knownsec.com',
+      //to: 'chenjz@knownsec.com',
       subject: subject,
       body: details,
       recipientProviders: [[$class: 'DevelopersRecipientProvider']]
